@@ -1,6 +1,6 @@
-# ML from scratch
+## Abstract
 
-This repository has implementations & analysis on popular machine learning methods.
+This repository has implementations & analysis on some popular machine learning methods.
 
 Libraries:
 
@@ -35,7 +35,7 @@ Below are links to Jupyter notebooks for easier viewing. For full code & data, v
 * Comparing RMSProp, Adagrad, and Adam optimizers in terms of convergence and performance on the given dataset.
 * Analysis on various architectural choices like filter sizes, strides, and max-pooling layers.
 
-5) [**Recurrent Neural Networks**](./5.%20Recurrent%20Neural%20Networks/A5Q1A.ipynb)
+5) **Recurrent Neural Networks & Transformer Networks**
 
 * Implementation of sequence to sequence encoder/decoder recurrent neural networks with & without attention in PyTorch
 * Analysis on linear, GRU, and LSTM units in RNN's in the context of preserving information in the hidden state
