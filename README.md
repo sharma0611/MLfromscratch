@@ -10,7 +10,7 @@ This structure follows the assignments for course CS 480/680: Machine Learning @
 
 Grades received on the 5 assignments and the literature review are all between 95%-100%. Course mark: 100%.
 
-Open the HTML files in each folder for easy viewing.
+Below are links to Jupyter notebooks for easier viewing. For full code & data, visit the repository [here](https://github.com/sharma0611/MLfromscratch).
 
 ## Contents
 
