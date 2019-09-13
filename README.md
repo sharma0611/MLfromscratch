@@ -42,6 +42,6 @@ Libraries:
 * I review the state of the art performance on UCF101, Sports1M, and Kinetics datasets.
 
 
-This structure follows the assignments for course CS 480: Intro to Machine Learning @ the University of Waterloo.
+This structure follows the assignments for course CS 480/680: Machine Learning @ the University of Waterloo.
 
-
+My marks on the 5 assignments and the literature review were all between 95%-100%. My course mark was 100%.
