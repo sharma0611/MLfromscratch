@@ -6,6 +6,11 @@ Libraries:
 
 * Numpy, Keras, Tensorflow, PyTorch
 
+This structure follows the assignments for course CS 480/680: Machine Learning @ the University of Waterloo.
+
+Grades received on the 5 assignments and the literature review are all between 95%-100%. Course mark: 100%.
+
+Open the HTML files in each folder for easy viewing.
 
 ## Contents
 
@@ -42,6 +47,8 @@ Libraries:
 * I review the state of the art performance on UCF101, Sports1M, and Kinetics datasets.
 
 
-This structure follows the assignments for course CS 480/680: Machine Learning @ the University of Waterloo.
+## Next Steps
 
-My marks on the 5 assignments and the literature review were all between 95%-100%. My course mark was 100%.
+I'd like to investigate tuning methods for deep residual networks. In the 2015 paper, *Deep Residual Learning for Image Recognition* by He et al., the Microsoft Group researchers introduce the concept of residual blocks to increase the depth of convolution neural networks to 152 layers while alleviating the vanishing gradient problem experienced by earlier architectures like VGG & AlexNet. The skip connections they used allowed residuals to skip blocks of layers and travel deeper back to earlier layers of the network and meaningfully change weights. "Highway Networks" are a closely related architecture that use parameteric gates that learn their own weights through gradient descent which control how much of the residual to let through, however, these did not achieve comparable performance to deep residual networks.
+
+I would like to investigate the potential use of residual gates to improve the learning process for deep residual networks. Fully open residual gates, like the ones in ResNet-152, allow residuals to travel freely throughout all parts of the learning process. However, we could expect that in early parts of the training process we would like earlier layers to have many weight updates in order to converge to some effective feature extracting convolution filters. It could that be desirable that in later training epochs, earlier layers should have less weight updates to allow the network to focus on training deeper layers to create hierarchal features on top of the early layer features. We can achieve this by slowly closing off the residual connections during training from the early layers on to the deeper layers. Optimally, this could allow us to reduce redundancies in the network where early layer features are relearned at later layers of the network because the input of a block, x, is always added to the output given to the next block, F(x). This training method introduces ways for us to bias deep residual networks towards hypotheses that build on low level features. In a way, this is similar to simulated annealing optimization as the network can be considered "hot" when all the connections are open but then as we "cool" the network we expect subnetworks to converge to local optima that are like local constraint satisfaction problems induced by the architecture of the network.
