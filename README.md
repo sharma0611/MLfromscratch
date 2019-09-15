@@ -40,9 +40,9 @@ Open this project in Github pages [here](https://sharma0611.github.io/MLfromscra
 * Implementation of sequence to sequence encoder/decoder recurrent neural networks with & without attention in PyTorch
 * Analysis on linear, GRU, and LSTM units in RNN's in the context of preserving information in the hidden state
 
-6) [**3D Action Recognition - Literature Review**](https://sharma0611.github.io/MLfromscratch/3D%20Action%20Recognition%20Literature%20Review.pdf)
+6) [**Action Recognition in Videos - Literature Review**](https://sharma0611.github.io/MLfromscratch/3D%20Action%20Recognition%20Literature%20Review.pdf)
 
-* I review the state of the art literature for 3D Action Recognition from pre-deep learning approaches in 2013 to modern deep learning techniques in 2019. 
+* I review the state of the art literature for action recognition in videos from pre-deep learning approaches in 2013 to modern deep learning techniques in 2019. 
 * I cover the architecture and reasoning behind improved dense trajectories, 3D CNN's, two-stream and single-stream CNN's, and channel seperated networks.
 * I review the state of the art performance on UCF101, Sports1M, and Kinetics datasets.
 
