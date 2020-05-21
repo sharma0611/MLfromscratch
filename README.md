@@ -8,7 +8,7 @@ Libraries:
 
 This structure follows the assignments for course CS 480/680: Machine Learning @ the University of Waterloo.
 
-Grades received on the 5 assignments and the literature review are all between 95%-100%. Course mark: 100%.
+My course mark: 100%.
 
 Open this project in Github pages [here](https://sharma0611.github.io/MLfromscratch/) or click the links below for easy viewing of Jupyter Notebooks.
 
@@ -40,7 +40,7 @@ Open this project in Github pages [here](https://sharma0611.github.io/MLfromscra
 * Implementation of sequence to sequence encoder/decoder recurrent neural networks with & without attention in PyTorch
 * Analysis on linear, GRU, and LSTM units in RNN's in the context of preserving information in the hidden state
 
-6) [**Action Recognition in Videos - Literature Review**](https://sharma0611.github.io/MLfromscratch/3D%20Action%20Recognition%20Literature%20Review.pdf)
+6) [**Action Recognition in Videos - Literature Review**](https://github.com/sharma0611/MLfromscratch/blob/master/Action%20Recognition%20Literature%20Review.pdf)
 
 * I review the state of the art literature for action recognition in videos from pre-deep learning approaches in 2013 to modern deep learning techniques in 2019. 
 * I cover the architecture and reasoning behind improved dense trajectories, 3D CNN's, two-stream and single-stream CNN's, and channel seperated networks.
